@@ -16,7 +16,7 @@ namespace Lab01
         public int SMSPerMonth;         // Кількість SMS на місяць
         public double MonthlyFee;       // Щомісячна плата за послуги
 
-        public double GetCostPerMinute() // Метод для отримання вартості хвилини дзвінкаfdsfsdff
+        public double GetCostPerMinute() // Метод для отримання вартості хвилини дзвінка
         {
             return MonthlyFee / CallMinutesPerMonth;
         }
