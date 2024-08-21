@@ -13,7 +13,7 @@ class Program
             string sPhoneNumber = Console.ReadLine();
             Console.Write("Введіть адресу абонента: ");
             string sAddress = Console.ReadLine();
-            Console.Write("Чи є у абонента Інтернет? (y-так, n-ні): ");
+            Console.Write("Чи є у абонента Інтернет? (н-так, у-ні): ");
             ConsoleKeyInfo keyHasInternet = Console.ReadKey();
             Console.WriteLine();
             Console.Write("Введіть кількість хвилин дзвінків на місяць: ");
